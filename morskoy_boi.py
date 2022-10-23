@@ -25,7 +25,7 @@ class BoardUsedException(BoardException): # класс исключений пр
     def __str__(self):
         return "Вы уже стреляли в эту клетку"
 
-class BoardWrongShipException(BoardException): # исключение для вывода короюлей на доску
+class BoardWrongShipException(BoardException): # исключение для вывода кораблей на доску
     pass
 
 class Ship:  # класс корабля
